@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+nav .wrapper {
+  position: relative;
+  max-width: 1300px;
+  padding: 0 30px;
+  height: 100px;
+  line-height: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+      /* "Read More" link */
+      .read-more-link {
+        cursor: pointer;
+        color: blue;
+    }
+    
+    .read-more-link:hover {
+        text-decoration: underline;
+    }
+
+.wrapper .logo {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.wrapper .nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  transition: color 0.5s;
+}
+
+.nav-links li a:hover {
+  color: #ff4c4c;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/bmw.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  font-size: 60px;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: justify;
+}
+
+.content h1 {
+  font-family: "Barlow Condensed";
+  color: #fff;
+  justify-content: center;
+}
+
+.content h1:nth-child(2) {
+  color: #ff4c4c;
+}
+
+.btn {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  padding: 9px 25px;
+  border-radius: 30px;
+  background-color: #ff4c4c;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #ff4c4c;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.flex {
+  position: relative;
+  width: 30%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  transition: transform 0.3s;
+  margin: 10px;
+}
+
+.flex:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.container {
+  width: 100%;
+  /* height: 300px; */
+  /* padding-bottom: 100%; Maintain a square aspect ratio */
+  overflow: hidden;
+  justify-content: center;
+  text-align: justify;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.container-text {
+  padding: 20px;
+  background: #fff;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.container-text h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  justify-content: center;
+}
+
+.container-text p {
+  font-size: 16px;
+  line-height: 1.4;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+  padding: 50px 0;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.section2 .info {
+  width: 50%;
+  padding: 5%;
+  justify-content: center;
+}
+
+.info h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ff4c4c;
+  font-family: "Barlow Condensed";
+}
+
+.info p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.section2 .img {
+  width: 50%;
+  height: auto;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Image2.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: -50px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content h1 {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.contact-content h2{
+  color: grey;
+}
+.contact .cover {
+  padding: 15px;
+  letter-spacing: 1px;
+  margin-top: 650px;
+}
+
+.cover h3 {
+  color: #ff4c4c;
+}
+
+.cover p {
+  color: #ffffff;
+}
+i:hover {
+transform: scale(1.5);
+}
+
+.contact-in h1{
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+}
+  .contact-in form{
+  width: 100%;
+  height: auto;
+}
+.contact-in-input{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  padding-left: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300; 
+}
+.contact-in-input::placeholder{
+  color: #fff;
+}
+.contact-in-textarea{
+  width: 100%;
+  height: 140px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  padding-top: 5px;
+  padding-left: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300; 
+}
+.contact-in-textarea::placeholder{
+  color: #fff;
+}
+.contact-in-btn{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300; 
+  cursor:pointer;
+}

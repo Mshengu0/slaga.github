@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+<body>
+  <nav>
+    <div class="wrapper">
+      <div class="logo">Slaga Stance</div>
+
+      <ul class="nav-links">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Model">Model</a></li>
+        <li><a href="#Offers">Offers</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header id="Home">
+    <div class="content">
+      <h1>Let's Get You</h1>
+      <h1>on the Road</h1>
+    </div>
+
+
+  </header>
+
+  <div class="section1" id="Model">
+    <div class="flex">
+        <div class="container">
+            <img src="st1.jpg" alt="Model 1" style="width: 100%;" height="100%">
+        </div>
+        <div class="container-text">
+            <h1>POLO Stance</h1>
+            <div class="read-more-container">
+                <div class="container">
+                    <p>
+                        The Volkswagen Polo Stance model is a striking blend of compact design and sporty appeal. With its clean lines and well-proportioned body, the Polo Stance radiates a sense of understated sophistication. Its lowered suspension and perfectly sized wheels contribute to a more aggressive and poised look. The front grille,  
+                        <span id="dots1">...</span>
+                        <span id="more1" style="display: none;"> gives the Polo adistinct character, while the sculpted sides and bold wheel arches enhance its dynamic stance. This car's design exudes a harmonious balance between elegance and sportiness, making it an ideal choice for those seeking a versatile and stylish compact car that turns heads wherever it goes. The Volkswagen Polo Stance is a testament to German engineering, offering both aesthetics and functionality in a single, eye-catching package.</span>
+                        <button onclick="myFunction(1)" id="myBtn1">Read more</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="container">
+            <img src="st7.jpg" alt="Model 2" style="width: 100%;" height="85%">
+        </div>
+        <div class="container-text">
+            <h1>AUDI 80 B3 Stance</h1>
+            <p>
+                The Audi 80 B3, renowned for its sleek and sophisticated design, exudes a captivating stance that effortlessly combines timeless elegance with a touch of sportiness. Its smoothly contoured lines and well-proportioned body create a sense of balanced refinement, while the subtly flared wheel arches and aerodynamic silhouette convey a subtle sense of  
+                <span id="dots2">...</span>
+                <span id="more2" style="display: none;">  of performance.The wide, bold front grille and distinctive Audi emblem add a touch of prestige to the car's overall presence. Its stance, characterized by a slightly lowered suspension and perfectly matched wheels, gives the Audi 80 B3 a poised and confident look, making it a standout choice for those who appreciate a harmonious blend of style and functionality.</span>
+                <button onclick="myFunction(2)" id="myBtn2">Read more</button>
+            </p>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="container">
+            <img src="st11.jpg" alt="Model 3" style="width: 100%; height: 10%;">
+        </div>
+        <div class="container-text">
+            <h1>325is BMW</h1>
+            <p>
+                The BMW 325is, in its stance model, is a true embodiment of precision and athleticism. With its low-slung profile, sculpted lines, and aggressive stance, this iconic coupe exudes a sense of dynamic elegance that's hard to miss. Its classic BMW kidney grille and bold, expressive headlights set the tone for a design that's as purposeful as it is captivating.
+                <span id="dots3">...</span>
+                <span id="more3" style="display: none;">In the world of automotive design, the 325is stance model is a testament to the art of fusing performance and aesthetics, making it a timeless classic that continues to turn heads.</span>
+                <button onclick="myFunction(3)" id="myBtn3">Read more</button>
+            </p>
+        </div>
+    </div>
+</div>
+<script>
+    function myFunction(section) {
+        var dots = document.getElementById("dots" + section);
+        var moreText = document.getElementById("more" + section);
+        var btnText = document.getElementById("myBtn" + section);
+
+        if (dots.style.display === "none" || dots.style.display === "") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
+
+
+
+
+
+
+  
+
+  <div class="section2" id="Offers">
+    <div class="info">
+      <h1>Stance Offers</h1>
+      <p>
+        1. Stance cars, with their distinctive blend of aggressive aesthetics and performance-oriented
+         modifications, are gaining popularity in the automotive world. Current offers on stance cars
+          showcase a vibrant and dynamic market, with a multitude of opportunities for enthusiasts to 
+          fine-tune their vehicles and make a statement on the road.
+      </p>
+      <p>
+        2. One notable current offer in the stance car scene is the availability of a wide range of suspension
+         and chassis upgrades, allowing drivers to lower their cars and achieve that iconic slammed look. These
+          modifications not only improve the car's appearance but also enhance handling and responsiveness, 
+          elevating the driving experience to new levels. With options ranging from coilovers to air suspension 
+          kits, car owners can tailor their stance setups to suit their individual preferences and driving conditions.
+      </p>
+      <p>
+        3.Furthermore, the availability of a plethora of body kits, spoilers, and aerodynamic enhancements allows car owners
+         to personalize the exterior appearance of their vehicles to a high degree. These enhancements are not just about aesthetics;
+          they can also improve downforce and aerodynamic efficiency, contributing to better stability at higher speeds.
+      </p>
+      <p>
+        4. The world of stance cars is an ever-evolving landscape, with new trends, technologies, and opportunities emerging regularly.
+         Current offers encompass a fusion of style, performance, and community engagement, making it an exciting and continually evolving 
+         segment of the automotive industry for those who are passionate about pushing the boundaries of car customization and personal expression
+          on the road.
+      </p>
+    </div>
+
+    <div class="img">
+      <img src="st8.jpg" alt="Offer" style="width: 100%; height: 90%;">
+    </div>
+  </div>
+  <script>
+    function myFunction(section) {
+        var dots = document.getElementById("dots" + section);
+        var moreText = document.getElementById("more" + section);
+        var btnText = document.getElementById("myBtn" + section);
+
+        if (dots.style.display === "none" || dots.style.display === "") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+</script>
+
+  <footer id="Contact">
+    <div class="contact-content">
+      <h1>Get in Touch</h1>
+      
+    <h2>Send a Message</h2>
+    <form>
+        <input type="text" placeholder="Full Name" class="contact-in-input">
+        <input type="text" placeholder="Email" class="contact-in-input">
+        <input type="text" placeholder="Subject" class="contact-in-input">
+        <textarea placeholder="Message" class="contact-in-textarea"></textarea>
+        <input type="submit" value="SUBMIT" class="contact-in-btn">
+    </form>
+</div>
+
+
+       
+      <div class="contact">
+        <div class="cover">
+          <h3>Email Address</h3>
+          <p>Shabalalal107@gmail.com</p>
+        </div>
+
+        <div class="cover">
+          <h3>address</h3>
+          <p>florida</p>
+        </div>
+
+        <div class="cover">
+          <h3>Phone Number</h3>
+          <p>071 754 1277</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="banner">
+    <p>© Copyright slaga 2023 
+      <!-- <a href="#" target="_blank">
+        <i class="fa fa-whatsapp" style="font-size:26px"></i>
+      </a> -->
+      <a href="https://www.facebook.com/lucky.kingmosha.73" target="_blank">
+        <i class="fa fa-facebook" style="font-size:26px"></i>
+      </a>
+    </p>
+    
+
+  </div>
+</body>
+</html>
+<style>
+  .banner{
+    background-color:  #fa2e2e;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+</style>
